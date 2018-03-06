@@ -1,5 +1,22 @@
 #!/usr/bin/env bash
 
+# Install
+#
+# curl -L http://bit.do/rmate > /usr/local/bin/rmate
+# chmod +x /usr/local/bin/rmate
+#
+# Alias (example: code for using with VS Code https://marketplace.visualstudio.com/items?itemName=rafaelmaiolla.remote-vscode)
+
+# ln -s /usr/local/bin/rmate /usr/local/bin/code
+#
+# On your machine
+#
+# ssh -R 52698:localhost:52698 user@example.com
+#
+# or add an entry in ~/.ssh/config section for your server
+#
+# RemoteForward 52698 127.0.0.1:52698
+#
 # rmate
 # Copyright (C) 2011-2018 by Harald Lapp <harald@octris.org>
 #
